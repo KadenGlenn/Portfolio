@@ -1,0 +1,15 @@
+@font-face{
+    font-family: 'nickainley'; 
+    src: url(fonts/Nickainley-Normal.otf);
+}
+.box{ 
+    background-image: url(https://www.publicdomainpictures.net/pictures/220000/nahled/floral-pattern-background-752.jpg); 
+    font-family: 'nickainley';
+} 
+.sec{ 
+    background-color: white; 
+} 
+.sec:hover{ 
+    opacity: 0.5; 
+    
+}
