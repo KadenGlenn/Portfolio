@@ -9,7 +9,10 @@
 .sec{ 
     background-color: white; 
 } 
+h1{ 
+    text-align: center;
+} 
 .sec:hover{ 
     opacity: 0.5; 
-    
+    transition: 3s;
 }
