@@ -6,17 +6,45 @@
     background-image: url(https://www.publicdomainpictures.net/pictures/220000/nahled/floral-pattern-background-752.jpg); 
     font-family: 'nickainley';
 } 
-@media only screen and (min-width:1px), (max-width:650px){
+@media only screen and (max-width:600px){
 .sec{ 
     background-color: white; 
-    border: transparent 1em solid; 
-    border-radius: 1em;
+    border: transparent 3% solid; 
+    border-radius: 15%;
     margin-right: auto;
     margin-left: auto; 
-    width: 75%;
-    position: sticky;
+    width: 65%; 
+    border: 15% black solid; 
+    font-size: 4vw;
   }  
 } 
+@media only screen and (min-width:768px){ 
+  .sec{ 
+    background-color: gray; 
+    position: relative; 
+      border: transparent 1em solid; 
+      border-radius: 5vh;
+      margin-right: auto;
+      margin-left: auto; 
+      width: 50%;
+      border: 5% black solid;
+      font-size: 2vw;
+    }  
+  }
+
+@media only screen and (min-width:1200px){ 
+  .sec{ 
+    background-color: white; 
+    position: relative; 
+      border: transparent 1em solid; 
+      border-radius: 5%;
+      margin-right: auto;
+      margin-left: auto; 
+      width: 75%; 
+      border: 5% black solid;
+      font-size: 2vw;
+    }  
+  } 
 
 h1{ 
     text-align: center; 
@@ -53,8 +81,11 @@ ul {
     background-color: white;
   } 
 .border{ 
-  border: 1px black solid;
+  border: 1px black solid; 
 } 
+.border2{ 
+  border: 5% black solid;
+}
 p{ 
   background-color: black; 
   color: white; 
@@ -71,4 +102,10 @@ li{
 } 
 li a:hover{ 
   color: black;
+} 
+.div{ 
+  width: 50%; 
+  margin-right: auto; 
+  margin-left: auto; 
+  background-color: white;
 }
