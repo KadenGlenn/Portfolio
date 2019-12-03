@@ -29,8 +29,6 @@
       width: 50%;
       border: 5% black solid;
       font-size: 2vw;
-    }  
-  }
     width: 75%;
     position: sticky;
   }  
@@ -46,7 +44,7 @@
       margin-left: auto; 
       width: 75%; 
       border: 5% black solid;
-      font-size: 2vw;
+      font-size: 2vw; 
     }  
   } 
 
@@ -97,8 +95,9 @@ p{
 } 
 ul:hover{ 
   color: black;
-li{ 
-} 
+}
+  li{ 
+
   color: black;
 } 
 li a:hover{ 
